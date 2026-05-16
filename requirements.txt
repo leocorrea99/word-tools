@@ -1,6 +1,7 @@
 # Dependências comuns (Mac e Windows)
 PyQt6>=6.4.0
 python-docx>=0.8.11
+requests>=2.28.0
 pyinstaller>=6.0.0
 
 # Somente Windows — instale manualmente se necessário:

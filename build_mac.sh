@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Build script — Word Tools para Mac (.app / .dmg)
-# Requisitos: pip install pyinstaller PyQt6 python-docx
+# Requisitos: pip install pyinstaller PyQt6 python-docx requests
 # ============================================================
 
 set -e

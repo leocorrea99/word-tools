@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependências
-        run: pip install PyQt6 python-docx pyinstaller
+        run: pip install PyQt6 python-docx requests pyinstaller
 
       - name: Build .app
         run: |
@@ -61,7 +61,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependências
-        run: pip install PyQt6 python-docx pywin32 pyinstaller
+        run: pip install PyQt6 python-docx requests pywin32 pyinstaller
 
       - name: Build .exe
         run: |
