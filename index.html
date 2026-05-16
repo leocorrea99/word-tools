@@ -631,7 +631,7 @@
 
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         errEl.textContent = "Por favor, insira um e-mail válido.";
-        errEl.style.display = "";
+        errEl.style.display = "block";
         return;
       }
 
@@ -645,10 +645,10 @@
         document.getElementById("modal-form-area").style.display = "none";
         document.getElementById("key-display").textContent = key;
         document.getElementById("modal-dl-link").href = pendingDlUrl;
-        document.getElementById("modal-success-area").style.display = "";
+        document.getElementById("modal-success-area").style.display = "block";
       } catch (err) {
         errEl.textContent = err.message || "Ocorreu um erro. Tente novamente.";
-        errEl.style.display = "";
+        errEl.style.display = "block";
         btn.disabled = false;
         btn.textContent = "Obter chave e baixar";
       }
